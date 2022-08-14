@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="header">
+            <input type="text" class="account" placeholder="0" readonly>
+            <input type="text" class="result" placeholder="" readonly>
+        </div>
+        <div class="main">
+            <button onclick="input('%')" class="btn">%</button>
+            <button onclick="reset()" class="btn">C</button>
+            <button onclick="backspace()" class="btn"> <i class="fas fa-backspace"></i></button>
+            <button onclick="input('/')" class="btn btn-outline-danger">/</button>
+            <button onclick="input('7')" class="btn">7</button>
+            <button onclick="input('8')" class="btn">8</button>
+            <button onclick="input('9')" class="btn">9</button>
+            <button onclick="input('*')" class="btn btn-outline-danger">x</button>
+            <button onclick="input('4')" class="btn">4</button>
+            <button onclick="input('5')" class="btn">5</button>
+            <button onclick="input('6')" class="btn">6</button>
+            <button onclick="input('-')" class="btn btn-outline-danger">-</button>
+            <button onclick="input('1')" class="btn">1</button>
+            <button onclick="input('2')" class="btn">2</button>
+            <button onclick="input('3')" class="btn">3</button>
+            <button onclick="input('+')" class="btn btn-outline-danger">+</button>
+            <button onclick="input('0')" class="btn">0</button>
+            <button onclick="input('.')" class="btn">.</button>
+            <button onclick="result()" class="btn-big">=</button>
+        </div>
+    </div>
+
+    
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
